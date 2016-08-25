@@ -1,0 +1,29 @@
+{
+  "name": "MeanBiz-Org-Rest-API",
+  "version": "0.0.1",
+  "authors": [
+    "Claudio Fernando Maciel <cfernandomaciel@meanbiz.org>",
+    "Marco Santana <w3msant@gmail.com>"
+  ],
+  "description": "MeanBiz-Org Restful API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "1.8",
+    "errorhandler": "*",
+    "express": "4.13.4",
+    "express-session": "*",
+    "gm": "*",
+    "jasmine-node": "1.14.5",
+    "jsonwebtoken": "*",
+    "method-override": "*",
+    "mongoose": "4.5.*",
+    "morgan": "*",
+    "multer": "0.1.*",
+    "prompt": "1.0.0",
+    "socket.io": "^1.4.8"
+  },
+  "devDependencies": {}
+}
